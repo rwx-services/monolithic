@@ -21,7 +21,7 @@ module Monolithic
 end
 
 namespace :monolithic do
-  namespace :test do
+  namespace :ci do
     desc "Run all tests in CI mode"
     task :all do
       %i[gems engines].each do |task_name|
